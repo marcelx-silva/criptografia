@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style/reset.css">
+    <link rel="stylesheet" href="/style/index2.css">
+    <title>Criptografia</title>
+</head>
+
+<body>
+    <header>
+        <img src="./img/cadeados.png" alt="">
+        <h1>Criptografe & Descriptografe</h1>
+    </header>
+    <main>
+        <div class="input">
+            <label for="inputMessage">Criptografe ou Descriptografe uma Mensagem</label>
+            <textarea name="inputMessage" id="inputMessage" cols="30" rows="10"></textarea>
+            <div class="btns">
+                <input type="button" value="Criptografar" id="encryptButton" cols="40" rows="5">
+                <input type="button" value="Decifrar" id="decryptButton">
+            </div>
+
+        </div>
+        <div class="output">
+            <label for="msgCript">Mensagem Criptografada/Decifrada</label>
+            <textarea name="outputMessage" id="outputMessage" cols="30" rows="10" readonly></textarea>
+            <div class="btns">
+                <button value="copy" id="copy">Copiar Texto</button>
+                <button value="clear" id="clear">Limpar Texto</button>
+            </div>
+        </div>
+
+    </main>
+    <footer>
+        <p>Site desenvolvido por Thiago Marcelo Pereira da Silva &copy.</p>
+        <div class="links">
+            <a href="#"><img src="./img/github-icon32.png" alt="github-icon"></a>
+            <a href="#"><img src="./img/linkedin-icon32.png" alt=""></a>
+            <a href="#"><img src="./img/info-icon32.png" alt=""></a>
+        </div>
+    </footer>
+</body>
+<script src="/js/index.js"></script>
+<script src="/js/copyTextButton.js"></script>
+<script src="/js/clearButton.js"></script>
+
+</html>
