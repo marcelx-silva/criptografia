@@ -1,8 +1,8 @@
 main{
     display: flex;
     width: 85%;
-    height: 50vh;
-    background-color: azure; 
+    height: 60vh;
+    background-color: #f7cb5f; 
     margin: 0 auto;
     justify-content: space-around;
     box-shadow: 5px 8px #E3E3E3;
@@ -31,23 +31,25 @@ label{
     margin: 15px 15px 15px 0;
     font-size: 18px;
     font-weight: 600;
+    color:#50687c;
 }
 button,
 input[type="button"]{
     padding:10px;
-    background-color: white;
-    border:1px solid #deb887;
+    background-color: #f7cb5f;
+    border:1px solid #50687c;
     border-radius:2px;
-    color:#deb887;
+    color:white;
     font-weight: 600;
     
 }
 button:hover,
 input[type="button"]:hover{
-    background-color: #deb887;
-    color: white;
+    background-color: white;
+    color: #f7cb5f;
     cursor: pointer;
-    box-shadow: 5px 8px #E3E3E3;
+    box-shadow: 5px 8px #50687c;
+    font-weight: 700;
 }
 .btns{
     display: flex;
@@ -62,8 +64,9 @@ textarea{
 
     padding:10px;
     font-size:16px;
-    color:black;
+    color:#50687c;
     font-weight: 400;
+
 }
 textarea:focus{
     background-color: #FAFAFA;
@@ -77,8 +80,8 @@ header{
     font-size:40px;
     font-style: italic;
     font-weight:600;
-    color:#deb887;
-    background-color: #FAFAFA;
+    color:#f7cb5f;
+    background-color: #50687c;
 
     margin-bottom:2%;
     box-shadow: 5px 8px #E3E3E3;
@@ -101,6 +104,8 @@ div.links{
     text-align: center;
     font-size: 0.9em;
     font-style:italic;
+    color:#f7cb5f;
+    font-weight: 600;
     
  }
  footer{
@@ -108,5 +113,6 @@ div.links{
     margin-top:100px;
     height: 5vh;
     border-radius: 5px;
-    background-color: #FAFAFA;
+    background-color: #50687c;
  }
+

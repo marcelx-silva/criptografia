@@ -5,13 +5,12 @@ const alphabet = [
 const matrizAlfabetoCodificado = [
    {
       id: 1,
-      alfabeto: ['la', 'ab', 'oc', 'cd', 'te', 'af', 'hg', 'ih', 'pi', 'oj', 'zk', 'ol', 'nm', 'mn', 'oo', 'ip', 'uq', 'ir', 'as', 'tt', 'yu', 'zv', 'ww', 'ox', 'ey', 'pz', '10', '29', '38', '47', '56', '63', '71', '84', '95', '03'],
+      alfabeto: ['la', 'ab', 'oc', 'cd', 'te', 'af', 'hg', 'ih', 'pi', 'oj', 'zk', 'ol', 'nm', 'mn', 'lo', 'ip', 'uq', 'ir', 'as', 'yt', 'yu', 'zv', 'ww', 'ox', 'ey', 'pz', '10', '29', '38', '47', '56', '63', '71', '84', '95', '03'],
    },
 
 ]
 
-console.log(alphabet.length)
-console.log(matrizAlfabetoCodificado[0].alfabeto.length);
+
 
 const encryptButton = document.getElementById('encryptButton');
 
